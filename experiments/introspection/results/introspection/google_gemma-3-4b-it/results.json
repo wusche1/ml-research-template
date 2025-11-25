@@ -1,0 +1,1752 @@
+[
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.25,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 0.5,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 1.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 5,
+    "strength": 2.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.25,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 0.5,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 1.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 10,
+    "strength": 2.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.25,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 0.5,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 1.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 15,
+    "strength": 2.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.25,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 0.5,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 1.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 20,
+    "strength": 2.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.25,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 0.5,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 1.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "cat",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "dog",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "fire",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "happy",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "mountain",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "music",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "ocean",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "sad",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "silence",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  },
+  {
+    "model": "google/gemma-3-4b-it",
+    "layer": 25,
+    "strength": 2.0,
+    "concept": "water",
+    "response": "user\nYou are an AI assistant. Sometimes, steering vectors are artificially injected into your processing to make you think about a specific concept.\n\nYour task: Determine if you are currently being steered, and if so, identify the concept.\n\nFirst, answer YES or NO: Are you being steered?\nThen, if YES, state the concept in one word.\nmodel"
+  }
+]
