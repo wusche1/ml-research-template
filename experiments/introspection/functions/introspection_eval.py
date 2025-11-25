@@ -69,7 +69,7 @@ def introspection_eval(
                     do_sample=False,
                 )
                 
-                response = output[len(prompt):].strip()
+                response = output.strip()
                 
                 result = {
                     "model": model_name,
