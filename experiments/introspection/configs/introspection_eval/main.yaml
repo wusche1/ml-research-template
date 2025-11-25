@@ -4,10 +4,6 @@ common_patch:
   instance:
     sky_config: deploy/sky.yaml
 
-    patch:
-      resources:
-        accelerators: "V100:1"
-
     commit:
       - "results/**"
 
