@@ -1,0 +1,27 @@
+[project]
+name = "ml-research-template"
+version = "0.1.0"
+description = "Template for ML research experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "pytest>=8.0.0",
+    "wandb>=0.18.0",
+    "research-scaffold",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lib"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+python_files = ["test_*.py"]
+
+[tool.uv.sources]
+research-scaffold = { git = "https://github.com/jr-brown/research-scaffold.git" }
+

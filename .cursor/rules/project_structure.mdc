@@ -1,0 +1,48 @@
+---
+alwaysApply: true
+---
+## Repository Structure
+
+### Package Management
+- **uv** is the package manager
+- Run scripts: `uv run python <script.py>`
+- Install dependencies: `uv add <package>` (never edit pyproject.toml directly)
+
+### Directory Layout
+
+**lib/** - Shared utilities
+- Installable Python package (defined in pyproject.toml)
+- Import from experiments: `from lib.config_loader import load_config`
+- Examples: config_loader, saving_run, reasoning_format, completion_logger
+
+**test/** - Unit tests for lib modules
+- Test files named `test_<module>.py`
+- Run with pytest
+
+**experiments/** - Independent ML experiments
+- Each subfolder is a self-contained experiment
+- Structure per experiment:
+  - `main.py` - Main entry point using research_scaffold
+  - `functions/` - Training functions and helper modules
+    - `<function_name>.py` - Main training function (e.g., `train_sft.py`)
+    - Helper modules (e.g., `data_preparation.py`, `evaluator.py`)
+  - `configs/` - Configuration files
+    - `base.yaml` - Base configuration with function_name and function_kwargs
+    - `<name>.yaml` - Override configs that merge into base.yaml
+  - `meta_configs/` - Meta configuration files
+    - `<name>.yaml` - Specifies which configs to run (experiments list)
+  - `results/` - Training outputs
+    - `<run_name>/` - One subfolder per run (from config)
+    - Contains: model checkpoints, wandb logs, saved config.yaml
+- Run experiment: `cd experiments/<name> && uv run python main.py [--c <config_name>] [--m <meta_config_name>]`
+  - Uses research_scaffold's argparser for flexible config selection
+
+**tmp/** - Jupyter notebooks for exploration and prototyping
+
+### Key Patterns
+- Uses **research_scaffold** library for experiment execution
+- Config system: `base.yaml` defines function_name and function_kwargs, override configs merge into it
+- Meta configs specify which configs to run in batch
+- Training functions live in `functions/` directory and receive kwargs from config
+- Results are organized by experiment name and run name
+- lib provides reusable utilities across all experiments

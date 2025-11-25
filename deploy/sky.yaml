@@ -1,0 +1,32 @@
+name: research-gpu
+
+resources:
+  cloud: vast
+  accelerators: A100:1
+  disk_size: 100
+  image_id: docker:pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel
+
+workdir: .
+
+file_mounts:
+  ~/.config/wandb: ~/.config/wandb
+  ~/.gitconfig: ~/.gitconfig
+  ~/sky_workdir/.env: .env
+
+envs:
+  PYTHONPATH: /home/sky-user/sky_workdir
+
+setup: |
+  git config --global --add safe.directory ~/sky_workdir
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  export PATH="$HOME/.cargo/bin:$PATH"
+  cd ~/sky_workdir
+  uv sync
+  sudo apt-get update
+  sudo apt-get install -y tmux htop direnv
+  
+  # Setup direnv
+  echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
+  eval "$(direnv hook bash)"
+  cd ~/sky_workdir && direnv allow
+

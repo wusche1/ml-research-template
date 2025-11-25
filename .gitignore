@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/tasks.json
+.DS_Store
+wandb/
+tmp/
+*.bin
+*.safetensors
+*.pth
+#tmp/
+*.egg-info/
+dist/
+build/
+
+
+
+# Ignore debug runs in results directories
+**/results/*debug*/
+**/nohup.out
+
+
+.env
