@@ -1,12 +1,12 @@
 folder: configs/introspection_eval/
 common_root: base.yaml
 
-# common_patch:
-#   instance:
-#     sky_config: deploy/sky.yaml
+common_patch:
+  instance:
+    sky_config: deploy/sky.yaml
 
-#     commit:
-#       - "results/**"
+    commit:
+      - "results/**"
 
 experiments:
   - config:
