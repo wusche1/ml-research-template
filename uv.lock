@@ -3228,7 +3228,7 @@ wheels = [
 [[package]]
 name = "research-scaffold"
 version = "0.1"
-source = { git = "https://github.com/jr-brown/research-scaffold.git#c4609b9a7442c144cf355bc753daafb042456ddc" }
+source = { git = "https://github.com/jr-brown/research-scaffold.git#c2b249043aa3edb43657566295004663f33e73b2" }
 
 [[package]]
 name = "rich"
