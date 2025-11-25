@@ -4,3 +4,13 @@ name: compute_vectors
 function_kwargs:
   concepts_file: data/concepts.txt
   output_dir: data/steering_vectors
+
+instance:
+  sky_config: deploy/sky.yaml
+
+  patch:
+    resources:
+      accelerators: "V100:1"
+
+  commit:
+    - "results/**"
