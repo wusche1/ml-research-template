@@ -1,11 +1,22 @@
 folder: configs/introspection_eval/
 common_root: base.yaml
 
+common_patch:
+  instance:
+    sky_config: deploy/sky.yaml
+
+    patch:
+      resources:
+        accelerators: "V100:1"
+
+    commit:
+      - "results/**"
+
 experiments:
   - config:
       function_kwargs:
         model_name: Qwen/Qwen2.5-3B
-        output_dir: results/debug_introspection
+        output_dir: results/test_introspection
         layers: [10, 20]
         strengths: [0,0.2]
 

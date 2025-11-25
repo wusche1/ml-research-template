@@ -29,4 +29,3 @@ python_files = ["test_*.py"]
 
 [tool.uv.sources]
 research-scaffold = { git = "https://github.com/jr-brown/research-scaffold.git" }
-

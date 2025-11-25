@@ -34,3 +34,9 @@ setup: |
   source ~/sky_workdir/.env
   git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "git@github.com:"
 
+run: |
+  source .venv/bin/activate
+  set -a
+  source ~/sky_workdir/.env
+  set +a
+
