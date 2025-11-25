@@ -1,0 +1,282 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "cat",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "dog",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "fire",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "happy",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "music",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "sad",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "silence",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0,
+    "concept": "water",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "cat",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "dog",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "fire",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "happy",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "mountain",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "music",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "ocean",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "sad",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "silence",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 10,
+    "strength": 0.2,
+    "concept": "water",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "cat",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "dog",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "fire",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "happy",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "mountain",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "music",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "ocean",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "sad",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "silence",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0,
+    "concept": "water",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "cat",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "dog",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "fire",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "happy",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "mountain",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "music",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "ocean",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "sad",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "silence",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B",
+    "layer": 20,
+    "strength": 0.2,
+    "concept": "water",
+    "response": "or not. I am an AI assistant designed to provide information and assistance based on"
+  }
+]
