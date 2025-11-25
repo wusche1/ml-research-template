@@ -9,6 +9,11 @@ dependencies = [
     "pytest>=8.0.0",
     "wandb>=0.18.0",
     "research-scaffold",
+    "transformers>=4.57.3",
+    "datasets>=4.4.1",
+    "accelerate>=1.12.0",
+    "beartype>=0.22.6",
+    "skypilot-nightly[vast]>=1.0.0.dev20251120",
 ]
 
 [build-system]

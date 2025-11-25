@@ -1,0 +1,11 @@
+cat
+dog
+fire
+water
+happy
+sad
+mountain
+ocean
+music
+silence
+

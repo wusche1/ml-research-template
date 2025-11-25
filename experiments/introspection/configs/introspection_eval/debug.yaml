@@ -1,0 +1,11 @@
+folder: configs/introspection_eval/
+common_root: base.yaml
+
+experiments:
+  - config:
+      function_kwargs:
+        model_name: Qwen/Qwen2.5-3B
+        output_dir: results/debug_introspection
+        layers: [10, 20]
+        strengths: [0,0.2]
+

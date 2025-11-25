@@ -1,0 +1,6 @@
+function_name: compute_steering_vectors
+name: compute_vectors
+
+function_kwargs:
+  concepts_file: data/concepts.txt
+  output_dir: data/steering_vectors

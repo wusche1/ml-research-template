@@ -1,0 +1,8 @@
+folder: configs/steering_vector_creation/
+common_root: base.yaml
+
+experiments:
+  - config:
+      function_kwargs:
+        output_dir: data/debug_steering_vectors
+        model_name: HuggingFaceTB/SmolLM2-360M-Instruct

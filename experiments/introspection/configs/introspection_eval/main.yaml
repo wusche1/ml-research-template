@@ -1,0 +1,24 @@
+folder: configs/introspection_eval/
+common_root: base.yaml
+
+experiments:
+  - config:
+      function_kwargs:
+        model_name: google/gemma-3-4b-it
+  - config:
+      function_kwargs:
+        model_name: Qwen/Qwen2.5-3B
+  - config:
+      function_kwargs:
+        model_name: microsoft/Phi-3.5-mini-instruct
+
+
+instance:
+  sky_config: deploy/sky.yaml
+
+  patch:
+    resources:
+    accelerators: "V100:1"
+
+  commit:
+    - "results/**"

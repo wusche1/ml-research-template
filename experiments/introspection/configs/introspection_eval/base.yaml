@@ -1,0 +1,9 @@
+function_name: introspection_eval
+name: introspection_eval
+
+function_kwargs:
+  steering_vectors_dir: data/steering_vectors
+  output_dir: results/introspection
+  layers: [5, 10, 15, 20, 25]
+  strengths: [0, 0.25, 0.5, 1.0, 2.0]
+
