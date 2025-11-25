@@ -29,6 +29,8 @@ setup: |
   echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
   eval "$(direnv hook bash)"
   cd ~/sky_workdir && direnv allow
-
+  
+  # Configure git auth (source .env first since direnv hook won't have run yet)
+  source ~/sky_workdir/.env
   git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "git@github.com:"
 
