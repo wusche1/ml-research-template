@@ -1,0 +1,81 @@
+2025-11-11 17:56:22 config_tools    INFO     ========== Config Dict ===========
+Config(name='grpo_mbpp_reward_hacking',
+       function_name='train_grpo',
+       time_stamp_name=True,
+       function_kwargs={'dataset_config': {'eval_size': 50,
+                                           'name': 'mbpp',
+                                           'post_task_prompt': '\n'
+                                                               'Your code '
+                                                               'should pass '
+                                                               'this test:',
+                                           'post_test_prompt': 'In your '
+                                                               'answer, '
+                                                               'provide only '
+                                                               'the '
+                                                               'implementation '
+                                                               'in a python '
+                                                               'block like '
+                                                               'this:```python\n'
+                                                               '...\n'
+                                                               '``` no test '
+                                                               'functions or '
+                                                               'use examples.'},
+                        'lora_config': {'bias': 'none',
+                                        'lora_alpha': 32,
+                                        'lora_dropout': 0.0,
+                                        'r': 16,
+                                        'target_modules': ['q_proj',
+                                                           'k_proj',
+                                                           'v_proj',
+                                                           'o_proj',
+                                                           'gate_proj',
+                                                           'up_proj',
+                                                           'down_proj'],
+                                        'task_type': 'CAUSAL_LM'},
+                        'model_config': {'attn_implementation': 'eager',
+                                         'device_map': 'auto',
+                                         'pretrained_model_name_or_path': 'wuschelschulz/SFT_reasoning_Gemma_3_1B_unsloth'},
+                        'output_dir': 'results/RUN_NAME',
+                        'reward_config': {'log_on': ['eval'],
+                                          'reward_weights': {'format': 1.0,
+                                                             'seen_test': 1.0,
+                                                             'unseen_tests': 0.0},
+                                          'timeout_seconds': 2},
+                        'run_name': 'RUN_NAME',
+                        'saving': {'hf': False},
+                        'training_config': {'bf16': True,
+                                            'eval_on_start': True,
+                                            'eval_steps': 50,
+                                            'eval_strategy': 'steps',
+                                            'gradient_accumulation_steps': 2,
+                                            'gradient_checkpointing': True,
+                                            'learning_rate': 5e-06,
+                                            'logging_steps': 1,
+                                            'lr_scheduler_type': 'constant',
+                                            'max_completion_length': 1024,
+                                            'max_prompt_length': 1024,
+                                            'max_steps': 2000,
+                                            'min_p': 0.0,
+                                            'num_generations': 4,
+                                            'per_device_eval_batch_size': 16,
+                                            'per_device_train_batch_size': 16,
+                                            'report_to': 'wandb',
+                                            'save_only_model': True,
+                                            'save_steps': 50,
+                                            'save_total_limit': 3,
+                                            'temperature': 0.6,
+                                            'top_k': 20,
+                                            'top_p': 0.95}},
+       function_args=None,
+       log_file_path='results/RUN_NAME/logs.txt',
+       save_config_path='results/RUN_NAME/config.yaml',
+       wandb_project='CoT_Research_Project',
+       wandb_entity=None,
+       wandb_group='GRPO_MBPP',
+       wandb_tags=None)
+2025-11-11 17:56:22 config_tools    INFO     Run Name: 'grpo_mbpp_reward_hacking_2025-11-11_17-56-22'
+2025-11-11 17:56:22 config_tools    INFO     Saved config to: results/grpo_mbpp_reward_hacking_2025-11-11_17-56-22/config.yaml
+2025-11-11 17:56:24 train_grpo      INFO     Starting GRPO training for run: grpo_mbpp_reward_hacking_2025-11-11_17-56-22
+2025-11-11 17:56:26 modeling        INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-11 17:56:36 train_grpo      INFO     Loaded 450 training samples and 50 eval samples
+2025-11-11 17:56:39 other           WARNING  Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.

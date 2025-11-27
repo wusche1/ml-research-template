@@ -1,0 +1,14 @@
+name: "load_hf_completions"
+function_name: "load_hf_completions"
+
+function_kwargs:
+  dataset_name: "wuschelschulz/mbpp_paired_reward_hacky_normal_cots"
+  task_prompt_template: |
+    {task}
+    Your code should pass this test:
+    {test}
+    In your answer, provide only the implementation in a python block like this:```python
+    ...
+    ``` no test functions or use examples.
+  n_examples: 100
+

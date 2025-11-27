@@ -1,0 +1,21 @@
+folder: "configs"
+common_root: "base.yaml"
+common_patch:
+  name: "debug_run"
+  wandb_project: "debug"
+  function_kwargs:
+    dataset_config:
+      n_eval: 10
+    training_config:
+      logging_steps: 1
+      eval_strategy: "steps"
+      eval_steps: 5
+      max_steps: 10
+    evaluator_config:
+      n_questions: 4
+    saving:
+      hf: false
+      wandb: false
+
+experiments:
+  - config: {}

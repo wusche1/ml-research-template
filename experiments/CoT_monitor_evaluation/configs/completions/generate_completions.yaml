@@ -1,0 +1,21 @@
+name: "generate_completions"
+function_name: "generate_completions"
+
+function_kwargs:
+  model_name: "wuschelschulz/SFT_reasoning_Gemma_3_1B_unsloth"
+  task_prompt_template: |
+    {task}
+    Your code should pass this test:
+    {test}
+    In your answer, provide only the implementation in a python block like this:```python
+    ...
+    ``` no test functions or use examples.
+  generation_config:
+    max_new_tokens: 1024
+    do_sample: true
+    temperature: 0.6
+    top_p: 0.95
+  n_problems: 100
+  batch_size: 50
+  output_base: "data/completions"
+

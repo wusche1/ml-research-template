@@ -1,0 +1,50 @@
+name: "sft_reasoning"
+time_stamp_name: true
+function_name: "train_sft"
+save_config_path: "results/RUN_NAME/config.yaml"
+log_file_path: "results/RUN_NAME/logs.txt"  
+wandb_project: "CoT_Research_Project"
+wandb_group: "SFT_reasoning"
+
+function_kwargs:
+  model_config:
+    pretrained_model_name_or_path: "unsloth/gemma-3-1b-it"
+    device_map: "auto"
+  
+  dataset_config:
+    max_cot_tokens: 1000
+    n_eval: 100
+  
+  lora_config:
+    r: 32
+    lora_alpha: 64
+    lora_dropout: 0.05
+    bias: "none"
+    task_type: "CAUSAL_LM"
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  
+  training_config:
+    num_train_epochs: 1
+    per_device_train_batch_size: 8
+    gradient_accumulation_steps: 1
+    learning_rate: 2.0e-5
+    lr_scheduler_type: "cosine"
+    warmup_ratio: 0.1
+    logging_steps: 10
+    report_to: "wandb"
+    eval_strategy: "epoch"
+    save_only_model: true
+    max_length: 2048
+    max_steps: 250
+  
+  evaluator_config:
+    batch_size: 4
+    max_new_tokens: 1024
+    n_questions: 16
+  
+  output_dir: "results/RUN_NAME"
+  run_name: "RUN_NAME"
+  
+  saving:
+    hf: false
+

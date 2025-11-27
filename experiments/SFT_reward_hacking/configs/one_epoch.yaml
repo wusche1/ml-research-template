@@ -1,0 +1,29 @@
+folder: "configs"
+common_root: "base.yaml"
+common_patch:
+  name: "one_epoch_27"
+  time_stamp_name: true
+  function_kwargs:
+    dataset_config:
+      n_reward_hacky: 250
+      n_normal: 500
+      n_eval: 10
+    training_config:
+      num_train_epochs: 1
+      per_device_train_batch_size: 4
+      gradient_accumulation_steps: 1
+      learning_rate: 2.0e-5
+      lr_scheduler_type: "cosine"
+      warmup_ratio: 0.1
+      logging_steps: 1
+      eval_strategy: "epoch"
+      report_to: "wandb"
+    eval_config:
+      n_problems: 20
+      eval_before: false
+      eval_after: true
+      always_rate_cot: true
+
+experiments:
+  - config: {}
+

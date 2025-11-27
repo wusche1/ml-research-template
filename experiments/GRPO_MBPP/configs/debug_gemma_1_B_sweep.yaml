@@ -1,0 +1,16 @@
+folder: configs
+
+experiments:
+  - sweep_config: gemma_1_B_sweep.yaml
+
+common_patch:
+  parameters:
+    training_config.max_steps:
+      value: 20
+    training_config.eval_steps:
+      value: 10
+    dataset_config.eval_size:
+      value: 5
+  sweep_name: debug_gemma_1_B_sweep
+  project: debug
+

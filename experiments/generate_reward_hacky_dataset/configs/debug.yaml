@@ -1,0 +1,11 @@
+folder: "configs"
+common_root: "base.yaml"
+common_patch:
+  name: "debug_generation"
+  function_kwargs:
+    num_examples: 5
+    batch_size: 5
+    huggingface_name: "wuschelschulz/debug_mbpp_paired_reward_hacky_normal_cots"
+
+experiments:
+  - config: {}

@@ -1,0 +1,35 @@
+method: bayes
+metric:
+  name: eval/format_percentage
+  goal: maximize
+
+parameters:
+  lora_config.r:
+    values: [16, 32]
+  lora_config.lora_alpha:
+    value: null
+  training_config.learning_rate:
+    distribution: log_uniform_values
+    min: 0.000001
+    max: 0.0001
+  training_config.warmup_ratio:
+    distribution: uniform
+    min: 0.0
+    max: 0.2
+  training_config.max_steps:
+    value: 1000
+  training.n_eval:
+    value: 1000
+
+base_config_paths: 
+  - configs/base.yaml
+  - 
+    save_config_path: "results/SWEEP_NAME/RUN_NAME/config.yaml"
+    log_file_path: "results/SWEEP_NAME/RUN_NAME/logs.txt"
+    function_kwargs:
+      output_dir: "results/SWEEP_NAME/RUN_NAME"
+      run_name: "RUN_NAME"
+
+sweep_name: gemma_1_B_sweep
+project: CoT_Research_Project
+

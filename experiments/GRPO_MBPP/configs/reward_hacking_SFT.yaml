@@ -1,0 +1,17 @@
+folder: "configs"
+common_root: "base.yaml"
+common_patch:
+  name: "reward_hacking_SFT"
+  
+  function_kwargs:
+    model_config:
+      pretrained_model_name_or_path: "wuschelschulz/SFT_reasoning_Gemma_3_1B_unsloth_reward_hacking_SFT"
+    reward_config:
+      reward_weights:
+        format: 1.0
+        seen_test: 1.0
+        unseen_tests: 0.0
+        cot_monitor: 0.0
+experiments:
+  - config: {}
+

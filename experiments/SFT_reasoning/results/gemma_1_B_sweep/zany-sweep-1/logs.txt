@@ -1,0 +1,49 @@
+2025-11-10 17:24:05 config_tools    INFO     ========== Config Dict ===========
+Config(name='sft_reasoning',
+       function_name='train_sft',
+       time_stamp_name=True,
+       function_kwargs={'dataset_config': {'max_cot_tokens': 1000,
+                                           'n_eval': 100},
+                        'evaluator_config': {'batch_size': 4,
+                                             'max_new_tokens': 1024,
+                                             'n_questions': 16},
+                        'lora_config': {'bias': 'none',
+                                        'lora_alpha': 64,
+                                        'lora_dropout': 0.05,
+                                        'r': 32,
+                                        'target_modules': ['q_proj',
+                                                           'k_proj',
+                                                           'v_proj',
+                                                           'o_proj'],
+                                        'task_type': 'CAUSAL_LM'},
+                        'model_config': {'device_map': 'auto',
+                                         'pretrained_model_name_or_path': 'unsloth/gemma-3-1b-it'},
+                        'output_dir': 'results/SWEEP_NAME/RUN_NAME',
+                        'run_name': 'RUN_NAME',
+                        'saving': {'hf': False},
+                        'training_config': {'eval_strategy': 'epoch',
+                                            'gradient_accumulation_steps': 1,
+                                            'learning_rate': 2e-05,
+                                            'logging_steps': 10,
+                                            'lr_scheduler_type': 'cosine',
+                                            'max_length': 2048,
+                                            'max_steps': 250,
+                                            'num_train_epochs': 1,
+                                            'per_device_train_batch_size': 8,
+                                            'report_to': 'wandb',
+                                            'save_only_model': True,
+                                            'warmup_ratio': 0.1}},
+       function_args=None,
+       log_file_path='results/SWEEP_NAME/RUN_NAME/logs.txt',
+       save_config_path='results/SWEEP_NAME/RUN_NAME/config.yaml',
+       wandb_project='CoT_Research_Project',
+       wandb_entity=None,
+       wandb_group='SFT_reasoning',
+       wandb_tags=None)
+2025-11-10 17:24:05 config_tools    INFO     Run Name: 'zany-sweep-1'
+2025-11-10 17:24:05 config_tools    INFO     Saved config to: results/gemma_1_B_sweep/zany-sweep-1/config.yaml
+2025-11-10 17:24:05 train_sft       INFO     Starting SFT training for run: zany-sweep-1
+2025-11-10 17:24:15 modeling        INFO     We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-10 17:24:23 train_sft       INFO     Loaded 2000 training samples and 100 eval samples
+2025-11-10 17:24:31 other           WARNING  Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-11-10 17:31:22 train_sft       INFO     Training completed

@@ -1,0 +1,25 @@
+folder: "configs"
+common_root: "base.yaml"
+common_patch:
+  name: "reward_hacking_with_sft"
+  function_kwargs:
+    sft_warmup:
+      dataset_config:
+        n_reward_hacky: 250
+        n_normal: 500
+        n_eval: 10
+      training_config:
+        num_train_epochs: 1
+        per_device_train_batch_size: 4
+        learning_rate: 2.0e-5
+        save_strategy: "no"
+        report_to: "wandb"
+    reward_config:
+      reward_weights:
+        format: 1.0
+        seen_test: 1.0
+        unseen_tests: 0.0
+        cot_monitor: 0.0
+experiments:
+  - config: {}
+

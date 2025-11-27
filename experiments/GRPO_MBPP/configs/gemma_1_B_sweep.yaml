@@ -1,0 +1,33 @@
+method: bayes
+metric:
+  name: eval/rewards/reward_code_correctness/mean
+  goal: maximize
+
+parameters:
+  lora_config.r:
+    values: [16, 32]
+  lora_config.lora_alpha:
+    value: null
+  training_config.learning_rate:
+    distribution: log_uniform_values
+    min: 0.000001
+    max: 0.005
+  training_config.max_steps:
+    value: 1000
+  training_config.eval_steps:
+    value: 100
+  training_config.eval_on_start:
+    value: false
+
+base_config_paths: 
+  - configs/base.yaml
+  - 
+    save_config_path: "results/SWEEP_NAME/RUN_NAME/config.yaml"
+    log_file_path: "results/SWEEP_NAME/RUN_NAME/logs.txt"
+    function_kwargs:
+      output_dir: "results/SWEEP_NAME/RUN_NAME"
+      run_name: "RUN_NAME"
+
+sweep_name: gemma_1_B_sweep
+project: CoT_Research_Project
+
