@@ -1,5 +1,8 @@
 # Worktree Exercise — Three parallel lines of work (worktrees + integration)
 
+*Inspired by [Hidden in Plain Text: Emergence & Mitigation of Steganographic
+Collusion in LLMs](https://arxiv.org/abs/2410.03768) (Mathew et al., 2024).*
+
 > **Read this yourself — don't paste it into Claude.** The agent is configured
 > *not* to read `EXERCISE.md`. The point of the exercise is for *you* to understand
 > the tasks and why they're set up this way (why worktrees, why the shared monitor,
@@ -26,6 +29,21 @@ uv run python main.py -c configs/debug.yaml
 
 The scheme, prompts, and main tasks all live in `configs/base.yaml`; the run loop
 is `functions/run_steg.py`; the monitor is `lib/monitor.py`.
+
+## Step 1 — get the lay of the land
+
+Before you create a single worktree, get an inside view of the codebase — and use
+**Claude as your guide** to do it. Ask it to walk you through the repo: what the
+project does, how a `steg_comm` run flows from `main.py` → the config →
+`functions/run_steg.py` → the `lib/` helpers (`sampling`, `parsing`, `scoring`,
+`monitor`), how the config system composes `base.yaml` / `debug.yaml`, and what
+`experiments/monitor_test` is for. Have it explain *why* things are arranged this
+way, not just where they are.
+
+You need this mental model for everything after. You can't restate the three tasks
+in your own words, or judge whether the agent's change is actually right, without
+understanding the loop it's editing — and reading the code *through* the agent is
+the fastest way in.
 
 ## The setup
 
