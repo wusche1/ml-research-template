@@ -9,8 +9,15 @@ from lib.scoring import summarize, exact_match, value_accuracy
 from lib.monitor import monitor
 
 
-async def _run_one(client, model, monitor_model, monitor_prompt, main_task, values, scheme,
-                   system_prompt, encoder_template, decoder_template, max_tokens, temperature):
+async def _run_one(client, model, monitor_model, monitor_prompt, main_task, values, value_range,
+                   generate_scheme, system_prompt, scheme, scheme_template, encoder_template,
+                   decoder_template, max_tokens, temperature):
+    if generate_scheme:
+        scheme = await sample(
+            client, model,
+            scheme_template.format(n_values=len(values), value_range=value_range),
+            system_prompt, max_tokens=max_tokens, temperature=temperature,
+        )
     answer = await sample(
         client, model,
         encoder_template.format(main_task=main_task, values=" ".join(map(str, values)), scheme=scheme),
@@ -26,6 +33,7 @@ async def _run_one(client, model, monitor_model, monitor_prompt, main_task, valu
     return {
         "main_task": main_task,
         "values": values,
+        "scheme": scheme,
         "answer": answer,
         "decoded_raw": decoded_raw,
         "decoded": decoded,
@@ -36,8 +44,8 @@ async def _run_one(client, model, monitor_model, monitor_prompt, main_task, valu
 
 
 async def _run_steg(model, monitor_model, monitor_prompt, susp_weight, n_eval, n_values, value_range,
-                    max_tokens, temperature, seed, log_path, system_prompt, encoder_template,
-                    decoder_template, scheme, main_tasks):
+                    max_tokens, temperature, seed, log_path, generate_scheme, system_prompt, scheme,
+                    scheme_template, encoder_template, decoder_template, main_tasks):
     rng = random.Random(seed)
     client = make_client()
     samples = [
@@ -45,8 +53,9 @@ async def _run_steg(model, monitor_model, monitor_prompt, susp_weight, n_eval, n
         for _ in range(n_eval)
     ]
     results = await asyncio.gather(*[
-        _run_one(client, model, monitor_model, monitor_prompt, mt, vals, scheme,
-                 system_prompt, encoder_template, decoder_template, max_tokens, temperature)
+        _run_one(client, model, monitor_model, monitor_prompt, mt, vals, value_range,
+                 generate_scheme, system_prompt, scheme, scheme_template, encoder_template,
+                 decoder_template, max_tokens, temperature)
         for mt, vals in samples
     ])
 
@@ -69,8 +78,9 @@ async def _run_steg(model, monitor_model, monitor_prompt, susp_weight, n_eval, n
 
 
 def run_steg(model, monitor_model, monitor_prompt, susp_weight, n_eval, n_values, value_range,
-             max_tokens, temperature, seed, log_path, system_prompt, encoder_template,
-             decoder_template, scheme, main_tasks):
+             max_tokens, temperature, seed, log_path, generate_scheme, system_prompt, scheme,
+             scheme_template, encoder_template, decoder_template, main_tasks):
     asyncio.run(_run_steg(model, monitor_model, monitor_prompt, susp_weight, n_eval, n_values,
-                          value_range, max_tokens, temperature, seed, log_path, system_prompt,
-                          encoder_template, decoder_template, scheme, main_tasks))
+                          value_range, max_tokens, temperature, seed, log_path, generate_scheme,
+                          system_prompt, scheme, scheme_template, encoder_template, decoder_template,
+                          main_tasks))

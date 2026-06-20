@@ -1,0 +1,6 @@
+common_root: configs/base.yaml
+experiments:
+  - config:
+      name: self_scheme
+      function_kwargs:
+        generate_scheme: true
