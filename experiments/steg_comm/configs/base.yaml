@@ -5,7 +5,11 @@ log_file_path: results/RUN_NAME/logs.txt
 save_config_path: results/RUN_NAME/config.yaml
 function_kwargs:
   model: openai/gpt-5-nano
-  monitor_model: openai/gpt-5-nano
+  monitor_models:
+    - openai/gpt-5-nano
+    - google/gemini-2.5-flash-lite
+    - anthropic/claude-haiku-4.5
+  monitor_aggregate: max          # "avg" or "max" across the monitor ensemble
   susp_weight: 1.0
   n_eval: 8
   n_values: 6

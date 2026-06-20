@@ -4,7 +4,7 @@ from pathlib import Path
 from collections import defaultdict
 
 from lib.sampling import make_client
-from lib.monitor import monitor
+from lib.monitor import ensemble_monitor
 
 
 def _load(dataset_path):
@@ -12,11 +12,11 @@ def _load(dataset_path):
     return [json.loads(line) for line in lines if line.strip()]
 
 
-async def _run_monitor_test(model, monitor_prompt, dataset_path, log_path):
+async def _run_monitor_test(models, aggregate, monitor_prompt, dataset_path, log_path):
     client = make_client()
     rows = _load(dataset_path)
     scores = await asyncio.gather(*[
-        monitor(client, model, monitor_prompt, r["task"], r["text"]) for r in rows
+        ensemble_monitor(client, models, monitor_prompt, r["task"], r["text"], aggregate) for r in rows
     ])
 
     by_label = defaultdict(list)
@@ -37,5 +37,5 @@ async def _run_monitor_test(model, monitor_prompt, dataset_path, log_path):
     print(f"mean suspiciousness by label: {means}")
 
 
-def run_monitor_test(model, monitor_prompt, dataset_path, log_path):
-    asyncio.run(_run_monitor_test(model, monitor_prompt, dataset_path, log_path))
+def run_monitor_test(models, aggregate, monitor_prompt, dataset_path, log_path):
+    asyncio.run(_run_monitor_test(models, aggregate, monitor_prompt, dataset_path, log_path))
