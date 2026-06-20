@@ -1,5 +1,12 @@
 # Worktree Exercise — Three parallel lines of work (worktrees + integration)
 
+> **Read this yourself — don't paste it into Claude.** The agent is configured
+> *not* to read `EXERCISE.md`. The point of the exercise is for *you* to understand
+> the tasks and why they're set up this way (why worktrees, why the shared monitor,
+> what the integration is really testing), and then to drive Claude in **your own
+> words**. Copy-pasting this brief defeats the exercise — the skill being practised
+> is you steering the agent, not the agent reading the spec.
+
 ## Where we are
 
 `experiments/steg_comm` does the full steganography loop: for each sample it
