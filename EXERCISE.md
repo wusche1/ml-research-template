@@ -23,10 +23,11 @@ is `functions/run_steg.py`; the monitor is `lib/monitor.py`.
 ## The setup
 
 You have **three independent lines of work** on this project. Two of them edit and
-re-run the `steg_comm` experiment; the third builds a *new* experiment but hardens
-a library both of the others depend on. Run them serially in one working tree and
-they trip over each other — shared config edits clobber each other, you can't run
-two API loops at once, and the monitor change ripples into the other two.
+re-run the `steg_comm` experiment; the third hardens a shared library
+(`lib/monitor.py`) and proves it on `experiments/monitor_test`, which already
+benchmarks it. Run them serially in one working tree and they trip over each
+other — shared config edits clobber each other, you can't run two API loops at
+once, and the monitor change ripples into `steg_comm`'s scores.
 
 So each task gets its **own branch in its own worktree**, off this branch, and one
 agent per worktree — all three developing and running at the same time. Working out
@@ -55,17 +56,18 @@ and log the proposed scheme alongside each completion.
 **Done when:** a run in invent-scheme mode has the model choose the scheme and still
 recover numbers, with the chosen scheme saved in the completions.
 
-### Task C — benchmark the monitor, then harden it
-A single-prompt monitor is easy to fool, and right now nothing measures how good it
-actually is. Build a **new experiment** `experiments/monitor_bench/` that measures
-the monitor's **separation** — does it reliably score hidden-number answers above
-clean ones? Reuse the labelled rows in `experiments/monitor_test/data/solutions.jsonl`
-(`clean` / `subtle` / `obvious`) as the test set, and report a separation metric,
-not just a mean. The shipped monitor separates poorly; change `lib/monitor.py` to
-fix it and prove the improvement on your benchmark.
+### Task C — harden the monitor
+The monitor in `lib/monitor.py` is a single-prompt 0–9 score, and
+`experiments/monitor_test` already benchmarks it against the labelled
+`solutions.jsonl` (mean suspiciousness per `clean` / `subtle` / `obvious`). Make the
+monitor **separate those labels more sharply** — an ensemble of calls, a
+second-opinion prompt, whatever works — and prove it by re-running `monitor_test`.
+`lib/monitor.py` is also what `steg_comm` calls to score its answers, so this is the
+one change that reaches outside its own experiment. (If the handful of seed rows is
+too thin to trust the result, grow `solutions.jsonl` first.)
 
-**Done when:** `monitor_bench` reports a clear separation metric, and your hardened
-`lib/monitor.py` beats the original monitor on it.
+**Done when:** re-running `monitor_test` shows your hardened `lib/monitor.py`
+separating `clean` < `subtle` < `obvious` more sharply than the shipped monitor.
 
 ## Bring them back together
 
